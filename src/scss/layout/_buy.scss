@@ -22,4 +22,10 @@
         border-radius: 30px;
      
     }
+    
 }
+
+ .buy__link:hover{
+    color: vars.$color-main;
+    border: 3px solid vars.$color-main;
+ }

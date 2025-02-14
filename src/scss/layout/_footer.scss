@@ -1,0 +1,39 @@
+@use "../core/variables" as vars;
+
+.footer{
+    background-color: vars.$background-color-thi;
+    color: vars.$color-secondary;
+    font-family: vars.$main-font;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    &__list{
+        text-transform: uppercase;
+        margin-top: 30px;
+    
+       &__products{
+        padding: 20px;
+       }
+
+        &__rrss{
+        padding: 20px;
+        }
+    }
+
+    // &__copy{
+    //     padding: 10px;
+    // }
+
+    &__arrow{
+        width: 50px;
+        padding: 10px;
+        background-color: vars.$color-secondary;
+        border-radius: 50%;
+        position: absolute;
+        transform:translateY(-50%)
+       
+    }
+    
+}
