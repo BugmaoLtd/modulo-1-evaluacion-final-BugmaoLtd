@@ -1,0 +1,44 @@
+@use "../core/variables" as vars;
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items:self-end;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right center;
+    background-image: url(/images/cover.jpeg)
+   
+}
+
+.hero__false{
+    height: 60%;
+}
+
+.hero__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.hero__title{
+    font-family: "Roboto";
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white;
+    padding: 40px;
+}
+
+.hero__parag{
+    font-family: vars.$main-font;
+    font-size: 30px;
+    color: white;
+}
+
+.hero__scroll{
+    width: 100px;
+    padding: 20px;
+    background-color: vars.$color-secondary;
+    border-radius: 50%;
+}

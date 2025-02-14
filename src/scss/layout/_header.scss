@@ -1,6 +1,6 @@
 @use "../core/variables" as vars;
 .header__menu{
-    background-color: #6c933e;
+    background-color: vars.$background-color-main;
     height: 30px;
     width: 30px;
     display: flex;

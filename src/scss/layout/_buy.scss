@@ -1,0 +1,25 @@
+@use "../core/variables" as vars;
+
+.buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: vars.$main-font;;
+    padding: 20px;
+
+    &__stories{
+        color: vars.$background-color-main;
+        padding-bottom: 10px;
+    }
+    &__text{
+        padding: 20px;
+    }
+
+    &__link{
+        color: vars.$color-corp;
+        padding: 10px;
+        border: 3px solid vars.$color-corp;
+        border-radius: 30px;
+     
+    }
+}
