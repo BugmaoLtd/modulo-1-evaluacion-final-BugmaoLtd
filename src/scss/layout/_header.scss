@@ -1,0 +1,17 @@
+@use "../core/variables" as vars;
+.header__menu{
+    background-color: #6c933e;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    &__img{
+        margin-top: 8px;
+        width: 80%;
+
+    }
+}
