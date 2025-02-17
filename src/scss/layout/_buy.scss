@@ -4,13 +4,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: vars.$main-font;;
+    font-family: vars.$main-font;
     padding: 20px;
 
     &__stories{
         color: vars.$background-color-main;
         padding-bottom: 10px;
+        
     }
+
+    &__shop{
+        font-family: vars.$sec-font;
+    }
+
     &__text{
         padding: 20px;
     }

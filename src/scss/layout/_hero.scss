@@ -1,39 +1,40 @@
 @use "../core/variables" as vars;
 .hero{
     display: flex;
-    flex-direction: column;
-    align-items:self-end;
+    flex-direction: column-reverse;
+    align-items:center;
     height: 100vh;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: right center;
+    background-position-x: 85%;
     background-image: url(/images/cover.jpeg)
    
-}
-
-.hero__false{
-    height: 60%;
+   
 }
 
 .hero__text{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
    
    
 }
 .hero__title{
-    font-family: "Roboto";
-    font-size: 80px;
+    font-family: vars.$sec-font;
+    font-size: 45px;
+    text-align: center;
     text-transform: uppercase;
     color: white;
-    padding: 40px;
+ 
 }
 
 .hero__parag{
     font-family: vars.$main-font;
-    font-size: 30px;
+    font-size: 18px;
+    text-align: center;
     color: white;
+    padding: 20px;
 }
 
 .hero__scroll{

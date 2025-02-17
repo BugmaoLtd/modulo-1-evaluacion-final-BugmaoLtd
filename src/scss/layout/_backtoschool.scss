@@ -1,0 +1,68 @@
+@use "../core/variables" as vars;
+
+.section{
+    background-color: vars.$background-color-sec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: vars.$main-font;
+    padding-bottom: 40px;
+
+    &__title{
+        padding-top: 20px;;
+
+    }
+
+    &__subtitle{
+        text-transform: uppercase;
+        font-family: vars.$sec-font;
+        padding: 20px;
+    }
+    &__articles{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding-bottom: 20px;
+
+    }
+        &__article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        &__button{
+            color: vars.$color-secondary;
+            background-color: vars.$color-corp;
+            padding: 10px;
+            border-radius: 30px;
+        }
+}
+
+.container__image{
+    width: 40%;
+    margin: 0 auto;
+   
+
+}
+
+.article__image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.article__title{
+    text-align: center;
+    font-family: vars.$sec-font;
+}
+
+@media (min-width:600px){
+    .section__articles{
+                grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
