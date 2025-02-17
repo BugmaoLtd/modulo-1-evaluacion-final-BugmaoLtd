@@ -26,6 +26,7 @@
         padding: 10px;
         border: 3px solid vars.$color-corp;
         border-radius: 30px;
+        transition: scale 2s;
      
     }
     
@@ -34,4 +35,5 @@
  .buy__link:hover{
     color: vars.$color-main;
     border: 3px solid vars.$color-main;
+    scale: 2;
  }
