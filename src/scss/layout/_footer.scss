@@ -44,6 +44,12 @@
     position: absolute;
     top: 0;
     transform:translateY(-50%) 
+    
+}
+
+.footer__arrow:hover{
+    animation-name: color;
+    animation-duration: 2s;
 }
 
 @media (min-width:600px) {
@@ -61,4 +67,10 @@
             order: -2;
         }
     }
+}
+
+@keyframes color {
+    0%{background-color: white;}
+    100%{background-color:#6c933e;}
+    
 }
